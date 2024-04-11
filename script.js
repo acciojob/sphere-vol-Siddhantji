@@ -6,14 +6,14 @@ function volume_sphere() {
 	btn.addEventListener("click",function () {
 		const radius = parseFloat(r.value);
 
-            // Calculate the volume of the sphere
-            const volume = (4/3) * Math.PI * Math.pow(radius, 3);
+    // Calculate the volume of the sphere
+        const volume = (4/3) * Math.PI * Math.pow(radius, 3);
 
             // Round the volume to four decimal places
-            const roundedVolume = volume.toFixed(4);
+          const roundedVolume = volume.toFixed(4);
 
             // Display the calculated volume
-            volume.textContent = "Volume: " + roundedVolume;
+            v.textContent = "Volume: " + roundedVolume;
 	})
 } 
 
