@@ -15,7 +15,7 @@ function volume_sphere() {
             const roundedVolume = volume.toFixed(4);
 
             // Display the calculated volume
-            volumeOutput.textContent = "Volume: " + roundedVolume;
+            volumeOutput.textContent = roundedVolume;
         });
 } 
 
